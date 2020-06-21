@@ -26,9 +26,8 @@ public class JoinListener implements Listener {
         Player player = event.getPlayer();
         String group = GroupAnnouncer.getPermission().getPrimaryGroup(player);
 
-        if (config.isString(String.format("%s.message", group))) {
-            List<String> messages = config.getStringList(group + ".message");
-
+        List<String> messages = config.getStringList(group + ".message");
+        if (messages != null) {
             for (String message : messages) {
                 message = message.replace("{player}", player.getName());
                 message = ChatColor.translateAlternateColorCodes('&', message);
