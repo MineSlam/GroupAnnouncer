@@ -1,5 +1,6 @@
 groups:
-  Helper:
-    message: "&4>> {player} has joined the server!"
-  Admin:
-    message: "&>> {player} has joined!"
+  default:
+    message:
+      - ""
+      - "&c&l>&4&l> &4&l{player} &rhas joined! &4&l<&c&l<"
+      - ""
