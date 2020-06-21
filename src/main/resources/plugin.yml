@@ -1,0 +1,7 @@
+name: GroupAnnouncer
+version: ${project.version}
+main: dev.rono.groupannouncer.GroupAnnouncer
+depend: Vault
+authors: Rono
+description: Announce groups on join!
+api-version: "1.12"

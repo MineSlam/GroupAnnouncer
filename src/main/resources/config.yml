@@ -1,0 +1,5 @@
+groups:
+  Helper:
+    message: "&4>> {player} has joined the server!"
+  Admin:
+    message: "&>> {player} has joined!"
