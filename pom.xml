@@ -56,12 +56,8 @@
 
     <repositories>
         <repository>
-            <id>papermc-repo</id>
-            <url>https://papermc.io/repo/repository/maven-public/</url>
-        </repository>
-        <repository>
-            <id>sonatype</id>
-            <url>https://oss.sonatype.org/content/groups/public/</url>
+            <id>nms-repo</id>
+            <url>https://repo.codemc.org/repository/nms/</url>
         </repository>
         <repository>
             <id>jitpack.io</id>
@@ -71,9 +67,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.destroystokyo.paper</groupId>
-            <artifactId>paper-api</artifactId>
-            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <groupId>net.yatopia</groupId>
+            <artifactId>yatopia</artifactId>
+            <version>1.16.3-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
